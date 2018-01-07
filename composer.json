@@ -1,0 +1,24 @@
+{
+    "name": "seesea/yii2-tbsdk",
+    "description": "Repack to extension from Taobao offical SDK on yii2",
+    "keywords": ["yii2", "top", "taobao", "taobao SDK"],
+    "homepage": "https://reevy.net",
+    "type":"yii2-extension",
+    "license": "MIT",
+    "authors":[
+        {
+            "name":"Reevy",
+            "email":"hi@reevy.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.4.0",
+        "yiisoft/yii2": "~2.0.8",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files":["TopSdk.php"],
+        "psr-4": { "yii\\taobao\\": "" }
+    }
+}
