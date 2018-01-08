@@ -1,6 +1,8 @@
 <?php
 namespace yii\taobao\top\request;
 
+use yii\taobao\top\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.uatm.event.get request
  * 
